@@ -8,6 +8,7 @@ import { LogoSDComponent } from './components/logo-sd/logo-sd.component';
 import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AcercadeComponent } from './components/acercade/acercade.component';
     LogoSDComponent,
     SocialComponent,
     BannerComponent,
-    AcercadeComponent
+    AcercadeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
