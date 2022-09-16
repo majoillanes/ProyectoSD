@@ -11,6 +11,7 @@ import { AcercadeComponent } from './components/acercade/acercade.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { SDComponent } from './components/sd/sd.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MenuComponent } from './components/menu/menu.component';
     AcercadeComponent,
     FooterComponent,
     GaleriaComponent,
-    MenuComponent
+    MenuComponent,
+    SDComponent
   ],
   imports: [
     BrowserModule,
