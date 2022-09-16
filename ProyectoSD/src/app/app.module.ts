@@ -9,6 +9,8 @@ import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { GaleriaComponent } from './components/galeria/galeria.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FooterComponent } from './components/footer/footer.component';
     SocialComponent,
     BannerComponent,
     AcercadeComponent,
-    FooterComponent
+    FooterComponent,
+    GaleriaComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
