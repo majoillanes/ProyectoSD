@@ -2,3 +2,23 @@ img{
     width: 100%;
     height: 600px;
 }
+
+.texto-encima{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.centrado{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:pink;
+}
+.centrado2{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
